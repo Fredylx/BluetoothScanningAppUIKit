@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD810C702ADDE7820075A212 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C6F2ADDE7820075A212 /* AppDelegate.swift */; };
+		FD810C722ADDE7820075A212 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C712ADDE7820075A212 /* SceneDelegate.swift */; };
+		FD810C742ADDE7820075A212 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C732ADDE7820075A212 /* ViewController.swift */; };
+		FD810C772ADDE7820075A212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD810C752ADDE7820075A212 /* Main.storyboard */; };
+		FD810C792ADDE7860075A212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD810C782ADDE7860075A212 /* Assets.xcassets */; };
+		FD810C7C2ADDE7860075A212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD810C7A2ADDE7860075A212 /* LaunchScreen.storyboard */; };
+		FD810C872ADDE7870075A212 /* BluetoothScanningAppUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C862ADDE7870075A212 /* BluetoothScanningAppUIKitTests.swift */; };
+		FD810C912ADDE7870075A212 /* BluetoothScanningAppUIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C902ADDE7870075A212 /* BluetoothScanningAppUIKitUITests.swift */; };
+		FD810C932ADDE7870075A212 /* BluetoothScanningAppUIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C922ADDE7870075A212 /* BluetoothScanningAppUIKitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD810C832ADDE7870075A212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD810C642ADDE7820075A212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD810C6B2ADDE7820075A212;
+			remoteInfo = BluetoothScanningAppUIKit;
+		};
+		FD810C8D2ADDE7870075A212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD810C642ADDE7820075A212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD810C6B2ADDE7820075A212;
+			remoteInfo = BluetoothScanningAppUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD810C6C2ADDE7820075A212 /* BluetoothScanningAppUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothScanningAppUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD810C6F2ADDE7820075A212 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD810C712ADDE7820075A212 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD810C732ADDE7820075A212 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD810C762ADDE7820075A212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD810C782ADDE7860075A212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD810C7B2ADDE7860075A212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD810C7D2ADDE7860075A212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD810C822ADDE7870075A212 /* BluetoothScanningAppUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothScanningAppUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD810C862ADDE7870075A212 /* BluetoothScanningAppUIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothScanningAppUIKitTests.swift; sourceTree = "<group>"; };
+		FD810C8C2ADDE7870075A212 /* BluetoothScanningAppUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothScanningAppUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD810C902ADDE7870075A212 /* BluetoothScanningAppUIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothScanningAppUIKitUITests.swift; sourceTree = "<group>"; };
+		FD810C922ADDE7870075A212 /* BluetoothScanningAppUIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothScanningAppUIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD810C692ADDE7820075A212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD810C7F2ADDE7870075A212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD810C892ADDE7870075A212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD810C632ADDE7820075A212 = {
+			isa = PBXGroup;
+			children = (
+				FD810C6E2ADDE7820075A212 /* BluetoothScanningAppUIKit */,
+				FD810C852ADDE7870075A212 /* BluetoothScanningAppUIKitTests */,
+				FD810C8F2ADDE7870075A212 /* BluetoothScanningAppUIKitUITests */,
+				FD810C6D2ADDE7820075A212 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD810C6D2ADDE7820075A212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C6C2ADDE7820075A212 /* BluetoothScanningAppUIKit.app */,
+				FD810C822ADDE7870075A212 /* BluetoothScanningAppUIKitTests.xctest */,
+				FD810C8C2ADDE7870075A212 /* BluetoothScanningAppUIKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD810C6E2ADDE7820075A212 /* BluetoothScanningAppUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C6F2ADDE7820075A212 /* AppDelegate.swift */,
+				FD810C712ADDE7820075A212 /* SceneDelegate.swift */,
+				FD810C732ADDE7820075A212 /* ViewController.swift */,
+				FD810C752ADDE7820075A212 /* Main.storyboard */,
+				FD810C782ADDE7860075A212 /* Assets.xcassets */,
+				FD810C7A2ADDE7860075A212 /* LaunchScreen.storyboard */,
+				FD810C7D2ADDE7860075A212 /* Info.plist */,
+			);
+			path = BluetoothScanningAppUIKit;
+			sourceTree = "<group>";
+		};
+		FD810C852ADDE7870075A212 /* BluetoothScanningAppUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C862ADDE7870075A212 /* BluetoothScanningAppUIKitTests.swift */,
+			);
+			path = BluetoothScanningAppUIKitTests;
+			sourceTree = "<group>";
+		};
+		FD810C8F2ADDE7870075A212 /* BluetoothScanningAppUIKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C902ADDE7870075A212 /* BluetoothScanningAppUIKitUITests.swift */,
+				FD810C922ADDE7870075A212 /* BluetoothScanningAppUIKitUITestsLaunchTests.swift */,
+			);
+			path = BluetoothScanningAppUIKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD810C6B2ADDE7820075A212 /* BluetoothScanningAppUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD810C962ADDE7870075A212 /* Build configuration list for PBXNativeTarget "BluetoothScanningAppUIKit" */;
+			buildPhases = (
+				FD810C682ADDE7820075A212 /* Sources */,
+				FD810C692ADDE7820075A212 /* Frameworks */,
+				FD810C6A2ADDE7820075A212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothScanningAppUIKit;
+			productName = BluetoothScanningAppUIKit;
+			productReference = FD810C6C2ADDE7820075A212 /* BluetoothScanningAppUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD810C812ADDE7870075A212 /* BluetoothScanningAppUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD810C992ADDE7870075A212 /* Build configuration list for PBXNativeTarget "BluetoothScanningAppUIKitTests" */;
+			buildPhases = (
+				FD810C7E2ADDE7870075A212 /* Sources */,
+				FD810C7F2ADDE7870075A212 /* Frameworks */,
+				FD810C802ADDE7870075A212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD810C842ADDE7870075A212 /* PBXTargetDependency */,
+			);
+			name = BluetoothScanningAppUIKitTests;
+			productName = BluetoothScanningAppUIKitTests;
+			productReference = FD810C822ADDE7870075A212 /* BluetoothScanningAppUIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD810C8B2ADDE7870075A212 /* BluetoothScanningAppUIKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD810C9C2ADDE7870075A212 /* Build configuration list for PBXNativeTarget "BluetoothScanningAppUIKitUITests" */;
+			buildPhases = (
+				FD810C882ADDE7870075A212 /* Sources */,
+				FD810C892ADDE7870075A212 /* Frameworks */,
+				FD810C8A2ADDE7870075A212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD810C8E2ADDE7870075A212 /* PBXTargetDependency */,
+			);
+			name = BluetoothScanningAppUIKitUITests;
+			productName = BluetoothScanningAppUIKitUITests;
+			productReference = FD810C8C2ADDE7870075A212 /* BluetoothScanningAppUIKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD810C642ADDE7820075A212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FD810C6B2ADDE7820075A212 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FD810C812ADDE7870075A212 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FD810C6B2ADDE7820075A212;
+					};
+					FD810C8B2ADDE7870075A212 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FD810C6B2ADDE7820075A212;
+					};
+				};
+			};
+			buildConfigurationList = FD810C672ADDE7820075A212 /* Build configuration list for PBXProject "BluetoothScanningAppUIKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD810C632ADDE7820075A212;
+			productRefGroup = FD810C6D2ADDE7820075A212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD810C6B2ADDE7820075A212 /* BluetoothScanningAppUIKit */,
+				FD810C812ADDE7870075A212 /* BluetoothScanningAppUIKitTests */,
+				FD810C8B2ADDE7870075A212 /* BluetoothScanningAppUIKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD810C6A2ADDE7820075A212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD810C7C2ADDE7860075A212 /* LaunchScreen.storyboard in Resources */,
+				FD810C792ADDE7860075A212 /* Assets.xcassets in Resources */,
+				FD810C772ADDE7820075A212 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD810C802ADDE7870075A212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD810C8A2ADDE7870075A212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD810C682ADDE7820075A212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD810C742ADDE7820075A212 /* ViewController.swift in Sources */,
+				FD810C702ADDE7820075A212 /* AppDelegate.swift in Sources */,
+				FD810C722ADDE7820075A212 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD810C7E2ADDE7870075A212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD810C872ADDE7870075A212 /* BluetoothScanningAppUIKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD810C882ADDE7870075A212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD810C912ADDE7870075A212 /* BluetoothScanningAppUIKitUITests.swift in Sources */,
+				FD810C932ADDE7870075A212 /* BluetoothScanningAppUIKitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD810C842ADDE7870075A212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD810C6B2ADDE7820075A212 /* BluetoothScanningAppUIKit */;
+			targetProxy = FD810C832ADDE7870075A212 /* PBXContainerItemProxy */;
+		};
+		FD810C8E2ADDE7870075A212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD810C6B2ADDE7820075A212 /* BluetoothScanningAppUIKit */;
+			targetProxy = FD810C8D2ADDE7870075A212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD810C752ADDE7820075A212 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD810C762ADDE7820075A212 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD810C7A2ADDE7860075A212 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD810C7B2ADDE7860075A212 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD810C942ADDE7870075A212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD810C952ADDE7870075A212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD810C972ADDE7870075A212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QF9F89UA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BluetoothScanningAppUIKit/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Need to access  Bluetooth to show nearby Devices";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Need to access  Bluetooth to show nearby Devices";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fredy.lopez.BluetoothScanningAppUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD810C982ADDE7870075A212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QF9F89UA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BluetoothScanningAppUIKit/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Need to access  Bluetooth to show nearby Devices";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Need to access  Bluetooth to show nearby Devices";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fredy.lopez.BluetoothScanningAppUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD810C9A2ADDE7870075A212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QF9F89UA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fredy.lopez.BluetoothScanningAppUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluetoothScanningAppUIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BluetoothScanningAppUIKit";
+			};
+			name = Debug;
+		};
+		FD810C9B2ADDE7870075A212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QF9F89UA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fredy.lopez.BluetoothScanningAppUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluetoothScanningAppUIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BluetoothScanningAppUIKit";
+			};
+			name = Release;
+		};
+		FD810C9D2ADDE7870075A212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QF9F89UA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fredy.lopez.BluetoothScanningAppUIKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BluetoothScanningAppUIKit;
+			};
+			name = Debug;
+		};
+		FD810C9E2ADDE7870075A212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QF9F89UA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fredy.lopez.BluetoothScanningAppUIKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BluetoothScanningAppUIKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD810C672ADDE7820075A212 /* Build configuration list for PBXProject "BluetoothScanningAppUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD810C942ADDE7870075A212 /* Debug */,
+				FD810C952ADDE7870075A212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD810C962ADDE7870075A212 /* Build configuration list for PBXNativeTarget "BluetoothScanningAppUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD810C972ADDE7870075A212 /* Debug */,
+				FD810C982ADDE7870075A212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD810C992ADDE7870075A212 /* Build configuration list for PBXNativeTarget "BluetoothScanningAppUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD810C9A2ADDE7870075A212 /* Debug */,
+				FD810C9B2ADDE7870075A212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD810C9C2ADDE7870075A212 /* Build configuration list for PBXNativeTarget "BluetoothScanningAppUIKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD810C9D2ADDE7870075A212 /* Debug */,
+				FD810C9E2ADDE7870075A212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD810C642ADDE7820075A212 /* Project object */;
+}
